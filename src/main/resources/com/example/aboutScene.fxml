@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.AboutController">
+   <children>
+      <Label layoutX="245.0" layoutY="24.0" text="Névjegy">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="246.0" layoutY="71.0" text="Termés Figyelő" />
+      <Label layoutX="224.0" layoutY="108.0" text="Szerző: Bihari Regina" />
+      <Label layoutX="206.0" layoutY="140.0" text="Copyright: 2026, Bihari Regina" />
+      <Label layoutX="265.0" layoutY="184.0" text="Szoft IN" />
+      <Label layoutX="253.0" layoutY="211.0" text="Licence: MIT" />
+      <Button layoutX="260.0" layoutY="290.0" mnemonicParsing="false" onAction="#onClickBackButton" text="Vissza" />
+      <Label layoutX="250.0" layoutY="241.0" text="2026.05.25" />
+   </children>
+</Pane>
